@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lorenz Attractor Visualization</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="lorenz.css" /> <!-- Link to external CSS file for styling -->
+  </head>
+  <body>
+    <!-- Help section with preset options -->
+    <div id="help" style="position: fixed; top: 10px; left: 10px; z-index: 1000; background: rgba(51, 51, 51, 0.8); padding: 15px; border-radius: 5px;">
+      <ul>
+        <li>
+          <!-- Dropdown menu to select different presets for the Lorenz attractor
+          <select id="preset">
+            <option disabled selected>-- presets --</option>
+            <option value="chaos">Chaos Demo</option>
+            <option value="gentle">Gentle Rotation</option>
+            <option value="bendy">Bendy</option>
+          </select>
+        </li>
+      </ul>
+
+      <div id="stats"></div> <!-- Placeholder for additional stats information -->
+    </div>
+
+    <!-- Logo in the lower left corner -->
+    <img src="img/logo.png" alt="Logo" style="position: fixed; bottom: 30px; left: 30px; width: 100px; height: auto; z-index: 1000;" />
+
+    <!-- JavaScript file for rendering the Lorenz attractor using Three.js -->
+    <script type="module" src="js/lorenz_threejs.js" defer></script>
+  </body>
+</html>
