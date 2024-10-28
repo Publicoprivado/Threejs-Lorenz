@@ -13,8 +13,8 @@ const continuousRotationSpeedY = 0.01;
 const params = {
     segments: 32,
     statsHidden: true,
-    color1: new THREE.Color('#934ff2'),
-    color2: new THREE.Color('#35098f'),
+    color1: new THREE.Color('#3a3a3a'),
+    color2: new THREE.Color('#515151'),
     noiseScale: 5.0,
 };
 
